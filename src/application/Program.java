@@ -26,6 +26,8 @@ public class Program {
 		}
 		catch (ArrayIndexOutOfBoundsException e) { //adcionou informação fora do limite
 			System.out.println("Invalid position");
+			e.printStackTrace();
+			sc.next();
 		}
 		catch (InputMismatchException e ) { //valor invalido ex a 
 			System.out.println("Input ERROR");
