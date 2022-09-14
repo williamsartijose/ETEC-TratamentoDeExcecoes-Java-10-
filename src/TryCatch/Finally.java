@@ -1,4 +1,4 @@
-package application;
+package TryCatch;
 
 import java.io.File;
 import java.io.IOException;
